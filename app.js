@@ -2,7 +2,7 @@ class FinancialCalculator {
     constructor() {
         // --- State and Data ---
         this.currentCalculator = 'tax-advisor';
-        this.geminiApiKey = "AIzaSyA4fSYGvkPgUCZlRuh3BUlEuU2o0CCoa6g"; // Replace with your actual key
+        this.geminiApiKey = "AIzaSyA4fSYGvkPgUCZlRuh3BUlEuU2o0CCoa6g"; 
         this.sipChart = null;
         this.exchangeRates = {
             "USD": { "rates": { "INR": 83.42, "EUR": 0.92, "GBP": 0.79, "JPY": 157.0 } },
@@ -269,3 +269,4 @@ class FinancialCalculator {
 document.addEventListener('DOMContentLoaded', () => {
     window.finpalApp = new FinancialCalculator();
 });
+
